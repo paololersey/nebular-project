@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-some-page',
+    selector: 'app-page',
     template: `
 
       <nb-layout>
@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
         <nb-sidebar>Sidebar Lynx</nb-sidebar>
 
         <nb-layout-column>
-          Page Content <button nbButton>Page nebular</button>
+          Page Content    <button nbButton>Page button</button>
         </nb-layout-column>
       </nb-layout>
     `

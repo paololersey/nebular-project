@@ -15,13 +15,13 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SomePageModule,
     // this will enable the default theme, you can change this by passing `{ name: 'dark' }` to enable the dark theme
     NbThemeModule.forRoot(),
     BrowserAnimationsModule,
     NbThemeModule.forRoot({ name: 'default' }),
     NbLayoutModule,
-    NbEvaIconsModule
+    NbEvaIconsModule,
+    SomePageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
