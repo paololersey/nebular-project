@@ -1,1 +1,1 @@
-# nice-post
+# Angule-nebular stub
